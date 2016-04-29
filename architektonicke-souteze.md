@@ -15,7 +15,7 @@ Výjimku ze zákona o veřejných zakázkách mají [zakázky malého rozsahu](h
 
 Architektonická soutěž sama o sobě pro zadání zakázky použita být nemůže, jde pouze o „předkolo“, po jehož skončení zadavatel zadá zakázku vítězi soutěže v jednacím řízení bez uveřejnění.
 
-Z hlediska zákona o zakázkách je architektonická soutěž takzvanou _soutěží o návrh_, viz § 102 a dále.@g
+Z hlediska zákona o zakázkách je architektonická soutěž takzvanou _soutěží o návrh_, viz § 102 a dále.
 
 ## Typy soutěží
 
