@@ -19,3 +19,13 @@ Plná velikost obrázku je ale hodně velká, takže například na titulce webu
 Pokud si ale porovnáte URL plného obrázku a náhledu, zjistíte, že jsou úplně stejné, jen URL náhledu má na konci názvu malé písmeno L navíc. Takže si můžete zjednodušit práci a URL náhledu vyrobit ručně, prostě přidáte `l`.
 
 Nic dalšího není potřeba dělat. Jednou za čas spouštíme [skript pro migraci obrázků](https://github.com/zoul/demiurge), který námi používané obrázky postahuje z imgur a nahraje je na náš server.
+
+## Kvalita fotek
+
+Fotky na web momentálně nahráváme víceméně v plné kvalitě, tedy klidně několik MB jeden kus. Není to ideální, zvlášť pro naše čtenáře na mobilních zařízeních (data stojí peníze), ale asi v tom pokračujme a časem to zaonačíme tak, aby se na každé zařízení stahovala fotografie jen v takovém rozlišení, které je potřeba.
+
+## Poměry stran
+
+Poměr stran v těle článku je vcelku lhostejný. Výrazně lépe fungují fotky naležato (4:3, 16:9, 1:1), fotky nastojato vychází příliš vysoké.
+
+Náhledová fotka článku se vždy ořezává na širokoúhlý poměr, myslím že 16:9. Pokud má originál jiný poměr stran, může se oříznout ošklivě. V krajním případě lze vhodný ořez vyrobit ručně bokem a nahrát na server dvě varianty obrázku – jednu pro použití uvnitř článku, jednu pro použití na titulce.
