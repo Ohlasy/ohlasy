@@ -58,4 +58,6 @@ Počet mříží značí úroveň nadpisu – jedna mříž je hlavní nadpis, d
 
 ## Epilog
 
-Zajímavým výukovým materiálem je tento dokument, který je samotný označkovaný pomocí Markdownu, viz jeho [zdrojovou podobu](https://raw.githubusercontent.com/Ohlasy/redakce/master/markdown.md).
+* Zajímavým výukovým materiálem je tento dokument, který je samotný označkovaný pomocí Markdownu, viz jeho [zdrojovou podobu](https://raw.githubusercontent.com/Ohlasy/redakce/master/markdown.md).
+
+* Markdown jde mimochodem použít i různě jinde na webu, například na Trellu.
