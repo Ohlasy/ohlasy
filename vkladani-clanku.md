@@ -1,6 +1,6 @@
 # Vkládání článků
 
-Každý článek je textový soubor v adresáři [_posts](https://github.com/Ohlasy/web/tree/gh-pages/_posts). Struktura tohoto adresáře může být libovolná, my jsme zvolili rozdělení podle let a měsíců. Článek má dvě hlavní části: samotný text ve formátu [Markdown](https://github.com/Ohlasy/redakce/blob/master/markdown.md) a metadata, tedy informace o článku (autor, rubrika a podobně).
+Každý článek je textový soubor v [adresáři \_posts](https://github.com/Ohlasy/web/tree/gh-pages/_posts). Struktura tohoto adresáře může být libovolná, my jsme zvolili rozdělení podle let a měsíců. Článek má dvě hlavní části: samotný text ve formátu [Markdown](https://github.com/Ohlasy/redakce/blob/master/markdown.md) a metadata, tedy informace o článku (autor, rubrika a podobně).
 
 ## Metadata
 
@@ -42,6 +42,20 @@ Nastavují se klíčovým slovem `tags`, hodnotou je seznam témat oddělených 
 
 Pokud je článek součástí seriálu, mezi ostatní články ze seriálu ho zařadíte klíčovým slovem `serial`. Možné hodnoty jsou `stromy`, `depozitar`, `jazyk`, `krajiny` a `historie`, viz [seznam seriálů ve zdrojovém kódu webu](https://github.com/Ohlasy/web/tree/gh-pages/_includes/serials).
 
+## Název souboru
+
+Kromě záhlaví článku jsou metadata uložená ještě v názvu souboru. Ten vypadá třeba takhle:
+
+    2016-6-15-rozhovor-impro.md
+
+Koncovka je vždycky `md`, netřeba řešit. Řetězec `rozhovor-impro` je ve výsledku vidět v adrese článku na webu, například tenhle článek má ve výsledku tohle URL:
+
+    http://ohlasy.info/clanky/2016/06/rozhovor-impro.html
+
+URL je to důležitá věc, takže je dobré vybírat něco stručného a výstižného. Smíte použít pouze písmena anglické abecedy (bez diakritiky) a spojovníky. Pokud si nevíte rady, podívejte se na předchozí články.
+
+A konečně zbývající částí názvu souboru je datum vydání ve tvaru `RRRR-M-D`.
+
 ## Text článku
 
 Pro formátování článků používáme jazyk [Markdown](https://github.com/Ohlasy/redakce/blob/master/markdown.md). Jediné, co stojí za další zmínku, je vkládání obrázků. To vypadá takhle:
@@ -54,3 +68,7 @@ Pro formátování článků používáme jazyk [Markdown](https://github.com/Oh
 Do uvozovek za `src` patří URL obrázku. Atribut `alt` určuje textový popisek obrázku, který potřebují například hlasové čtečky pro nevidomé. Atribut `class` je vždycky stejný, atribut `data-author` určuje zdroj obrázku.
 
 Pokud si nejste jisti, jak co zařídit, podívejte se na předchozí články v podobném stylu, máme jich mraky.
+
+## Zakládání nových souborů na GitHubu
+
+Když chcete vložit nový článek, otevřete si [adresář \_posts](https://github.com/Ohlasy/web/tree/gh-pages/_posts), rozklikněte aktuální rok a měsíc, a pak klikněte na tlačítko _Create new file_ (vytvořit nový soubor). Vložte kompletní zdrojový kód článku včetně záhlaví, v políčku nahoře (_Name your file…_) doplňte název souboru, na záložce _Preview_ si můžete aspoň rámcově zkontrolovat formátování a nakonec dole (ve vstupním poli s textem _Create new file_) vypište stručný popis změn a klepněte na _Commit new file_. Za moment by nový článek měl naskočit na webu.
