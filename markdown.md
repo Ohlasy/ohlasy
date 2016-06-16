@@ -47,3 +47,15 @@ Potřebujete-li vyrobit explicitní konec řádku, například kvůli sazbě poe
     kmen.
 
 Kdybyste to neudělali, Markdown by řádky spojil dohromady do jednoho odstavce.
+
+## Nadpisy
+
+Pro sázení nadpisů je několik možností. Jedna je vložit před text nadpisu mříž (`#`):
+
+    # Kočka Šklíba, Vévodkyně a prasátko
+
+Počet mříží značí úroveň nadpisu – jedna mříž je hlavní nadpis, dvě podnadpis, tři nadpis třetí úrovně, a tak dále. Pro značkování mezititulků v článcích používáme nadpisy třetí úrovně (`###`).
+
+## Epilog
+
+Zajímavým výukovým materiálem je tento dokument, který je samotný označkovaný pomocí Markdownu, viz jeho [zdrojovou podobu](https://raw.githubusercontent.com/Ohlasy/redakce/master/markdown.md).
