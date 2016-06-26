@@ -5,7 +5,7 @@
 * Řády se v češtině oddělují nedělitelnou mezerou („6 584 200,50 Kč“, nikoliv „6.584.200,50 Kč“).
 * Sázení závorek lomítky /takhle/ je relikt z doby psacích strojů. Všem se po nich stýská, ale typografie ocení opravdické kulaté závorky :–)
 * Jednotky se sází s mezerou i bez: 1 kg je „jeden kilogram“, zatímco 1kg znamená „jednokilogramový“.
-* Znaménko „krát“ nesázíme pomocí písmene „x“, ale opravdickým krát (×). Podobně výpustka (…) je samostatný znak, který bychom neměli nahrazovat třemi tečkami (...).
+* Znaménko „krát“ nesázíme pomocí písmene „x“, ale opravdickým krát (× nebo ✕). Podobně výpustka (…) je samostatný znak, který bychom neměli nahrazovat třemi tečkami (...).
 
 ## Jazyková pravidla
 
