@@ -30,6 +30,10 @@ Nastavuje se klíčovým slovem `cover-photo`, hodnotou je URL fotky. K nahráv
 
 Nastavuje se klíčovým slovem `author`. Hodnota musí být něco ze [seznamu autorů](https://github.com/Ohlasy/web/blob/gh-pages/_data/autori.yml), jinak by se nenačetla profilovka autora a jeho e-mail.
 
+### Perex
+
+Za běžných okolností se jako perex použije první odstavec textu článku. V případech, kdy to nevyhovuje, se dá perex nastavit samostatně klíčovým slovem `excerpt`.
+
 ### Rubrika
 
 Nastavuje se klíčovým slovem `category`. Možné hodnoty jsou `rozhovory`, `názory a komentáře`, `zpravodajství`, `ankety` a `seriály`. Podle rubriky se momentálně pod každým článkem sází seznam dalších článků.
