@@ -29,3 +29,5 @@ Fotky na web momentálně nahráváme víceméně v plné kvalitě, tedy klidně
 Poměr stran v těle článku je vcelku lhostejný. Výrazně lépe fungují fotky naležato (4:3, 16:9, 1:1), fotky nastojato vychází příliš vysoké.
 
 Náhledová fotka článku se vždy ořezává na širokoúhlý poměr, myslím že 16:9. Pokud má originál jiný poměr stran, může se oříznout ošklivě. V krajním případě lze vhodný ořez vyrobit ručně bokem a nahrát na server dvě varianty obrázku – jednu pro použití uvnitř článku, jednu pro použití na titulce.
+
+Fotky, které mají skončit jako kruhová profilovka (například v anketách), můžou být libovolně veliké, ale musí být čtvercové, tedy 1:1.
