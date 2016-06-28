@@ -71,6 +71,14 @@ Pro formátování článků používáme jazyk [Markdown](https://github.com/Oh
 
 Do uvozovek za `src` patří URL obrázku. Atribut `alt` určuje textový popisek obrázku, který potřebují například hlasové čtečky pro nevidomé. Atribut `class` je vždycky stejný, atribut `data-author` určuje zdroj obrázku.
 
+Zvláštním případem jsou „profilové“ fotky s kruhovým ořezem, které se objevují například v anketách. Ty se vkládají takhle:
+
+    <img src="http://i.imgur.com/Ajp97PF.jpg"
+        alt="Pavel Vlach"
+        class="profile-picture">
+        
+Fotka může být libovolně veliká, ale musí být čtvercová. Ořez na kruh už si web zařídí sám.
+
 Pokud si nejste jisti, jak co zařídit, podívejte se na předchozí články v podobném stylu, máme jich mraky.
 
 ## Zakládání nových souborů na GitHubu
