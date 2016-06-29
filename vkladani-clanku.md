@@ -81,6 +81,10 @@ Fotka může být libovolně veliká, ale musí být čtvercová. Ořez na kruh 
 
 Pokud si nejste jisti, jak co zařídit, podívejte se na předchozí články v podobném stylu, máme jich mraky.
 
+## Nejčtenější články
+
+Pokud je nutné aktualizovat seznam nejčtenějších článků ručně, mrkněte na soubor `_data/nejctenejsi.yml`, formát by měl být jasný.
+
 ## Zakládání nových souborů na GitHubu
 
 Když chcete vložit nový článek, otevřete si [adresář \_posts](https://github.com/Ohlasy/web/tree/gh-pages/_posts), rozklikněte aktuální rok a měsíc, a pak klikněte na tlačítko _Create new file_ (vytvořit nový soubor). Vložte kompletní zdrojový kód článku včetně záhlaví, v políčku nahoře (_Name your file…_) doplňte název souboru, na záložce _Preview_ si můžete aspoň rámcově zkontrolovat formátování a nakonec dole (ve vstupním poli s textem _Create new file_) vypište stručný popis změn a klepněte na _Commit new file_. Za moment by nový článek měl naskočit na webu.
