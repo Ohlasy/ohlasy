@@ -30,4 +30,4 @@ Poměr stran v těle článku je vcelku lhostejný. Výrazně lépe fungují fot
 
 Náhledová fotka článku se vždy ořezává na širokoúhlý poměr, myslím že 16:9. Pokud má originál jiný poměr stran, může se oříznout ošklivě. V krajním případě lze vhodný ořez vyrobit ručně bokem a nahrát na server dvě varianty obrázku – jednu pro použití uvnitř článku, jednu pro použití na titulce.
 
-Fotky, které mají skončit jako kruhová profilovka (například v anketách), můžou být libovolně veliké, ale musí být čtvercové, tedy 1:1.
+Fotky, které mají skončit jako kruhová profilovka (například v anketách), můžou být libovolně veliké, ale musí být čtvercové, tedy 1:1. „Profilovky“ je dobré ořezávat pokud možno tak, aby byly výsledné obličeje zhruba srovnatelné velikosti – když na jedné fotce necháte hodně prostoru kolem hlavy a druhou oříznete těsně kolem hlavy, ve výsledku bude těsně oříznutý obličej větší, což nevypadá hezky. 
