@@ -8,10 +8,11 @@ Informace o článku jsou uložené především v záhlaví každého souboru, 
 
     ---
     title: „Člověk dokáže i trapno využít ve svůj prospěch.“
+    perex: Rozhovor s Michaelou Vymazalovou a Jendou Nádvorníkem o improvizačním divadle.
     cover-photo: http://i.imgur.com/eYUFoYtl.jpg
     author: Martina Vašková
     category: rozhovory
-    tags: kultura, divadlo
+    tags: kultura divadlo
     ---
 
 Tímto záhlavím začíná každý článek. Jeho formát je jednoduchý: nejprve tři pomlčky (přesněji řečeno spojovníky) jako oddělovač, pak několik řádků ve tvaru `magické-klíčové-slovo: nějaká hodnota`, a nakonec zase tři spojovníky jako oddělovač.
@@ -32,7 +33,9 @@ Nastavuje se klíčovým slovem `author`. Hodnota musí být něco ze [seznamu a
 
 ### Perex
 
-Za běžných okolností se jako perex použije první odstavec textu článku. V případech, kdy to nevyhovuje, se dá perex nastavit samostatně klíčovým slovem `excerpt`.
+Jelikož samotným titulkem bychom článek většinou nezvládli dostatečně popsat, používáme ještě _perex_, tedy krátký popis obsahu článku. Dříve jsme jako perex brali první odstavec textu, ale ten bývá hodně dlouhý a ne vždy dostatečně dobře shrnuje obsah. Proto jsme zavedli klíčové slovo `perex`, kterým lze nastavit perex článku samostatně. Důležité je, aby titulek společně s perexem byl rozumně krátký a vešel se do náhledu článku na titulce a jinde:
+
+![ukázkový náhled článku](http://i.imgur.com/Eqp4kiv.png)
 
 ### Rubrika
 
@@ -40,7 +43,11 @@ Nastavuje se klíčovým slovem `category`. Možné hodnoty jsou `rozhovory`, `n
 
 ### Témata
 
-Nastavují se klíčovým slovem `tags`, hodnotou je seznam témat oddělených čárkami. K seznamu témat je [stručný návod na Trellu](https://trello.com/c/wzHWMyxX/364-temata), ale celá věc je zatím v plenkách.
+Nastavují se klíčovým slovem `tags`, hodnotou je seznam témat oddělených mezerou. Jelikož mezera slouží jako oddělovač, témata s mezerou je potřeba sázet složitěji:
+
+    tags:
+        - Červená zahrada
+        - architektura a urbanismus
 
 ### Seriály
 
@@ -71,7 +78,19 @@ Pro formátování článků používáme jazyk [Markdown](https://github.com/Oh
 
 Do uvozovek za `src` patří URL obrázku. Atribut `alt` určuje textový popisek obrázku, který potřebují například hlasové čtečky pro nevidomé. Atribut `class` je vždycky stejný, atribut `data-author` určuje zdroj obrázku.
 
+Zvláštním případem jsou „profilové“ fotky s kruhovým ořezem, které se objevují například v anketách. Ty se vkládají takhle:
+
+    <img src="http://i.imgur.com/Ajp97PF.jpg"
+        alt="Pavel Vlach"
+        class="profile-picture">
+        
+Fotka může být libovolně veliká, ale musí být čtvercová. Ořez na kruh už si web zařídí sám.
+
 Pokud si nejste jisti, jak co zařídit, podívejte se na předchozí články v podobném stylu, máme jich mraky.
+
+## Nejčtenější články
+
+Pokud je nutné aktualizovat seznam nejčtenějších článků ručně, mrkněte na soubor `_data/nejctenejsi.yml`, formát by měl být jasný.
 
 ## Zakládání nových souborů na GitHubu
 
