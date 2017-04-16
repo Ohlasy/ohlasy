@@ -71,12 +71,11 @@ A konečně zbývající částí názvu souboru je datum vydání ve tvaru `RRR
 
 Pro formátování článků používáme jazyk [Markdown](https://github.com/Ohlasy/redakce/blob/master/markdown.md). Jediné, co stojí za další zmínku, je vkládání obrázků. To vypadá takhle:
 
-    <img src="http://i.imgur.com/eYUFoYt.jpg"
-        alt="Jenda Nádvorník, Michaela Vymazalová"
-        class="img-responsive img-popup"
-        data-author="Tomáš Znamenáček">
+    {% photo src="http://i.imgur.com/qMjTQHm.jpg"
+        caption="Nadační dům s modlitebnou a učebnou zřízený Nathanem Löw-Beerem roku 1883"
+        author="Muzeum regionu Boskovicka" %}
 
-Do uvozovek za `src` patří URL obrázku. Atribut `alt` určuje textový popisek obrázku, který potřebují například hlasové čtečky pro nevidomé. Atribut `class` je vždycky stejný, atribut `data-author` určuje zdroj obrázku.
+Do uvozovek za `src` patří URL obrázku, `caption` je popisek obrázku a atribut `author` určuje autora nebo držitele autorských práv. Do atributu `alt` se vkládá textový popisek obrázku, který potřebují například hlasové čtečky pro nevidomé. Pokud `alt` chybí, použije se hodnota `caption`.
 
 Zvláštním případem jsou „profilové“ fotky s kruhovým ořezem, které se objevují například v anketách. Ty se vkládají takhle:
 
